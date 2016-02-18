@@ -18,3 +18,11 @@ mix test
 # Run the app
 mix server
 ```
+
+## Deployment
+
+Deploy on Heroku using the [Elixir buildpack][buildpack] from
+[HashNuke][hashnuke].
+
+[buildpack]: https://github.com/HashNuke/heroku-buildpack-elixir
+[hashnuke]: https://github.com/HashNuke
