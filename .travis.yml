@@ -13,6 +13,9 @@ sudo: false # faster builds
 notifications:
   email: false
 
+before_script:
+  - mix ecto.setup
+
 script:
   - mix compile --warnings-as-errors
   - mix test

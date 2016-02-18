@@ -1,6 +1,9 @@
 Votey
 =====
 
+[![Build Status][badge]](https://travis-ci.org/lpil/votey)
+[badge]: https://travis-ci.org/lpil/votey.svg?branch=master
+
 A tiny voting app made with Elixir.
 
 
