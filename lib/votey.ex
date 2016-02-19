@@ -1,4 +1,7 @@
 defmodule Votey do
+  @moduledoc """
+  A tiny voting app!
+  """
   use Application
 
   def start(_type, _args) do
