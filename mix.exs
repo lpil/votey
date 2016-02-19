@@ -37,7 +37,7 @@ defmodule Votey.Mixfile do
       {:ecto, github: "elixir-lang/ecto"},
 
       # Style linter
-      {:dogma, "~> 0.0", only: :dev},
+      {:dogma, "~> 0.0", only: [:dev, :test]},
       # Test runner
       {:mix_test_watch, "~> 0.0", only: :dev},
     ]
